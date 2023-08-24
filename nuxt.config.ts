@@ -7,8 +7,8 @@ export default defineNuxtConfig({
     typeCheck: true,
     shim: true,
   },
-  // imports: {
-  // autoImport: false,
-  // },
+  nitro: {
+    preset: 'vercel',
+  },
   modules: ['@pinia/nuxt'],
 });
